@@ -1,0 +1,303 @@
+body {	font-family: 'Open Sans', sans-serif;
+		display: grid;
+		grid-template-columns: 10% 30% 30% 30%;
+		grid-template-rows:90px 65px 670px 200px 200px 400px 1000px;
+		grid-template-areas:
+		"isologo almafuerte almafuerte almafuerte"
+		"isologo nav nav nav"
+		"imagenPrincipal imagenPrincipal imagenPrincipal imagenPrincipal"	
+		"frase frase frase frase"
+		"opinion opinion opinion opinion"
+		"ventajasYnovedades ventajasYnovedades ventajasYnovedades ventajasYnovedades"
+		"footer footer footer footer";		
+				}
+.isologo {
+		grid-area: isologo;
+				}
+.almafuerte {
+		grid-area: almafuerte;
+		font-family: 'IBM Plex Serif', serif;
+		font-size: 20px;
+				}
+.nav {  grid-area: nav;
+				} 
+.imagenPrincipal {
+		grid-area: imagenPrincipal;
+				}
+.frase {
+		grid-area: frase;
+		font-family: 'IBM Plex Serif', serif;
+		font-size: 30px;
+		font-weight: normal;
+		line-height: 1.5;
+		text-align: center;
+				}
+.opinion {
+		grid-area: opinion;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-around;
+				}
+.ventajasYnovedades {
+		grid-area: ventajasYnovedades;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-around;
+				}
+.footer {
+		grid-area: footer;
+		display: flex;
+		flex-wrap: wrap;
+		display-direction: column;
+		justify-content: space-between;
+		align-items: space-between;
+				}
+.opinion1 {
+		border: 1px solid;
+		width: 150px;
+		height: 150px;
+				}
+.opinion2 {
+		border: 1px solid;
+		width: 150px;
+		height: 150px;
+				}
+.opinion3 {
+		border: 1px solid;
+		width: 150px;
+		height: 150px;
+				}
+.opinion4 {
+		border: 1px solid;
+		width: 150px;
+		height: 150px;
+				}
+.frase p {
+		width: 90%;
+		margin-left: 40px;
+		margin-top: 20px;
+				}
+.barraNav {
+		display:flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		flex-wrap: nowrap;
+		list-style-type: none;
+				}
+.barraNav a {
+		text-decoration: none;
+				}
+.barraNav a li { 
+		display: inline;
+		padding: 0px; 
+		margin-top: 0px;
+		font-size: 20px;
+		font-style: bold;
+		float: right;
+		margin-left: 50px;
+ 				}
+.uno {
+		color: red;
+				}
+.dos {	
+		color: orange;
+				}
+.tres {
+		color: #8bc34a;
+				}
+.cuatro {
+		color: green;
+				}
+.cinco {							
+		color: blue;
+				}
+.seis {
+		color: indigo;
+				}
+.ventajas {
+		border: solid 1px;
+		height: 400px;
+		width: 50%;
+				}
+.novedades {
+		border: solid 1px;
+		height: 400px;
+		width: 50%;
+				}
+.nuestroJardin {	
+		font-family: 'Open Sans', sans-serif;
+		display: grid;
+		grid-template-columns: 10% 90%;
+		grid-template-rows:90px 65px 400px 250px 350px 350px 100px;
+		grid-template-areas:
+		"isologo almafuerte"
+		"isologo nav"
+		"imagenDeInicioNuestroJardin imagenDeInicioNuestroJardin"	
+		"nuestraHistoria nuestraHistoria"
+		"imagenYequipo imagenYequipo"
+		"nuestroEspacioEimagen nuestroEspacioEimagen"
+		"footer footer";
+				}
+.imagenDeInicioNuestroJardin {
+		grid-area: imagenDeInicioNuestroJardin;
+				}	
+.nuestraHistoria {
+		grid-area: nuestraHistoria;
+		height: 200px;
+		width: 90%;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-weight: normal;
+		line-height: 2;
+		text-align: center;
+		border: solid 1px;
+		display: flex;
+		flex-direction: column;
+				}	
+.imagenYequipo {
+		grid-area: imagenYequipo;
+		width: 90%;
+		border: solid 1px;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-weight: normal;
+		line-height: 2;
+		text-align: center;
+		border: solid 1px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+				}
+.imagenElEquipo {
+		width: 45%;
+		border: solid 1px;
+				}
+.elEquipo {
+		width: 45%;
+		border: solid 1px;
+				}
+.nuestroEspacioEimagen {
+		grid-area: nuestroEspacioEimagen;
+		width: 90%;
+		border: solid 1px;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-weight: normal;
+		line-height: 2;
+		text-align: center;
+		border: solid 1px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+				}
+.nuestroEspacio {
+		width: 45%;
+		border: solid 1px;
+				}
+.imagenNuestroEspacio {
+		width: 45%;
+		border: solid 1px;
+				}		
+h2 {
+		font-family: 'IBM Plex Serif', serif;
+				}	
+.mision {
+		display: grid;
+		grid-template-columns: 10% 90%;
+		grid-template-rows:90px 65px 650px 320px 600px 100px;
+		grid-template-areas:
+		"isologo almafuerte"
+		"isologo nav"
+		"imagenDeInicioMision imagenDeInicioMision"	
+		"nuestraMision nuestraMision"
+		"valoresEinspiracion valoresEinspiracion"
+		"footer footer";
+				}
+.imagenDeInicioMision {
+		grid-area: imagenDeInicioMision;
+				}
+.nuestraMision {
+		grid-area: nuestraMision;
+		height: 300px;
+		width: 90%;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-weight: normal;
+		line-height: 2;
+		text-align: center;
+		border: solid 1px;
+		display: flex;
+		flex-direction: column;
+				}
+.valoresEinspiracion {
+		grid-area: valoresEinspiracion;
+		width: 90%;
+		border: solid 1px;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-weight: normal;
+		line-height: 2;
+		text-align: center;
+		border: solid 1px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+				}
+.valores 	{
+		width: 45%;
+		border: solid 1px;
+				}
+.inspiracion {
+		width: 45%;
+		border: solid 1px;
+				}
+.propuesta {
+		display: grid;
+		grid-template-columns: 10% 40% 45%;
+		grid-template-rows:90px 65px 180px 300px 700px 100px;
+		grid-template-areas:
+		"isologo almafuerte almafuerte"
+		"isologo nav nav"
+		"imagenDeInicioPropuesta imagenDeInicioPropuesta imagenDeInicioPropuesta"	
+		"textoPropuesta textoPropuesta textoPropuesta"
+		"areasDeEnseñanza areasDeEnseñanza areasDeEnseñanza"
+		"footer footer footer";
+				}
+.imagenDeInicioPropuesta {
+		grid-area: imagenDeInicioPropuesta;
+				}
+.textoPropuesta {
+		grid-area: textoPropuesta;
+		height: 300px;
+		width: 90%;
+		margin-left: 100px;
+		margin-right: 100px;
+		font-weight: normal;
+		line-height: 2;
+		text-align: center;
+		border: solid 1px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+				}
+.areasDeEnseñanza {
+		grid-area: areasDeEnseñanza;
+		height: 650px;
+		width: 95%;
+		margin-top: 2.5%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-content: space-around;
+				}
+.areasDeEnseñanza div {
+		border: 1px solid;
+		width: 250px;
+		height: 300px;
+				}
+.footer .container {
+		margin-top: 5%;
+				}
